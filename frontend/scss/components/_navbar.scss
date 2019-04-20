@@ -25,3 +25,22 @@ h2.volontiraj {
     color: #fff;
     font-weight: 700;
 }
+
+a.nav-link {
+    
+    padding-top: 1.3em;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;  
+    font-size: 1.1em;
+    
+    
+}
+
+@media (max-width: 576px) {
+    h2.volontiraj {
+        padding-top: 2%;
+    }
+}
+
+
