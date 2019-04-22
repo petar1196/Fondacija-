@@ -20,3 +20,63 @@ span.3 {
 span.writte {
     padding-left: 1.5rem;
 }
+
+button.more {
+    background-color: $my-red;
+    border: solid $my-red 1px;
+    border-radius: 1px;
+    width: 10em;
+    height: 2.8em;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    
+
+   
+}
+
+span.read {
+    color: #fff;
+    font-family: $font-poppins;
+}
+
+
+    button.more {
+        margin-left: 4rem;
+    }
+
+
+.container-fluid.green {
+    background-color: $my-green;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+h2.veliki {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+h5.isidora {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    font-family: $font-nunito;
+}
+
+
+@media (max-width: 567px) {
+    .card {
+        margin-left: 7rem;
+    }
+    
+    button.more {
+        margin-left: 11rem;
+    }
+
+    h5.isidora {
+        margin-left: 5.5em;
+    }
+}
