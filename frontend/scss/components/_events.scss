@@ -1,0 +1,29 @@
+@mixin card {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+@mixin card-bottom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.card.card-event1 {
+   @include card;
+}
+
+.card.card-event2 {
+    @include card;
+}
+
+.card.card-event3 {
+    @include card-bottom;
+}
+
+span.19 {
+    color: black;
+    font-size: 6em;
+}
