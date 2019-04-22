@@ -1,0 +1,67 @@
+@mixin header-cards {
+    text-align: center;
+    padding-top: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+@mixin cards-text-big {
+    color: #fff;
+    padding-top: 0.2rem;
+    font-size: 2.5rem;
+    
+}
+
+@mixin cards-text-small {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: -1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+
+.left-mission {
+    background-color: $my-red;
+    @include header-cards;
+    
+}
+
+.center-events {
+    background-color: $my-blue;
+    @include header-cards;
+}
+
+.right-involved {
+    background-color: $my-green;
+    @include header-cards;
+   
+}
+
+.mission {
+    @include cards-text-big;
+}
+
+.events {
+    @include cards-text-big;
+}
+
+.ivolved{
+    @include cards-text-big;
+}
+
+.our {
+    @include cards-text-small;
+}
+
+.register {
+    @include cards-text-small;
+}
+
+.volunteer {
+    @include cards-text-small;
+}
+
+

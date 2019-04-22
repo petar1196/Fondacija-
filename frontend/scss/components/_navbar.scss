@@ -33,6 +33,7 @@ a.nav-link {
     color: black;
     font-weight: 400;  
     font-size: 1.1em;
+    margin-right: 1.6rem;
     
     
 }
@@ -40,6 +41,16 @@ a.nav-link {
 @media (max-width: 576px) {
     h2.volontiraj {
         padding-top: 2%;
+    }
+}
+
+@media(max-width: 572px ) {
+    h2.fondacija {
+        padding-left: 1rem;
+        
+    }
+    img.logo {
+        padding-right: 1rem;
     }
 }
 
