@@ -83,3 +83,46 @@ button.now3 {
   @include button-register;
   margin-left: 6.6em;
 }
+
+.cnt-join {
+  margin-top: 9em;
+}
+
+.background-left {
+  background-color: $my-green;
+}
+
+.background-right {
+  background-image: url("../images/bg-left.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+  
+}
+
+h1.join {
+  color: #fff;
+  font-size: 3.9rem;
+  font-weight: bold;
+  margin-top: 2.1em;
+  
+}
+
+h3.empower {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 450;
+}
+
+button.donate {
+  background-color: $my-red;
+  border: 1px solid $my-red;
+  color: #fff;
+  font-size: 1.1rem;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  margin-left: 2em;
+  margin-top: 1.5em;
+}
