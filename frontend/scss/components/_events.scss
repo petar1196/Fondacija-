@@ -1,29 +1,85 @@
 @mixin card {
-    border-top: none;
-    border-left: none;
-    border-right: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 @mixin card-bottom {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+@mixin button-register {
+  background-color: $my-red;
+  border: 1px solid $my-red;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1rem;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: -0.3em;
+  padding-right: -0.3em;
+  
 }
 
 .card.card-event1 {
-   @include card;
+  @include card;
 }
 
 .card.card-event2 {
-    @include card;
+  @include card;
+  height: 5em;
 }
 
 .card.card-event3 {
-    @include card-bottom;
+  @include card-bottom;
+}
+.test {
+  color: black;
+  font-size: 2.8rem;
+  
+  position: relative;
+  top: 4.2rem;
+  span:nth-child(1) {
+    position: relative;
+    top: -1.3rem;
+    font-size: 0.9rem;
+  }
+  }
+
+   .mnt {
+    position: relative;
+    top:-4.6rem;
+    left: 3.8rem;
+    font-size: 0.9rem;
+  }
+
+   .sub-text {
+    position: absolute;
+    left: 10rem;
+    top: 6rem;
+    font-size: 2rem;
+  }
+
+
+.sanfrancisco {
+    font-size: 1rem;
+}
+button.now1 {
+ @include button-register;
+ margin-left: 6.7em;
 }
 
-span.19 {
-    color: black;
-    font-size: 6em;
+button.now2 {
+  
+  @include button-register;
+  margin-left: 9em;
+  
+}
+
+button.now3 {
+  @include button-register;
+  margin-left: 6.6em;
 }

@@ -2,14 +2,17 @@
     border-bottom: solid 5px $my-red;
     overflow: hidden;
     vertical-align: middle;
+    background-color: #fff;
     
      
 }
 
 h2.fondacija {
     text-transform: uppercase;
+    
     font-size: 1.4em;
     font-weight: 640;
+    margin-top: 0.5em;
 }
 
 .right {
@@ -19,7 +22,7 @@ h2.fondacija {
 }
 
 h2.volontiraj {
-    padding-top: 12%;
+    padding-top: 16%;
     text-transform: uppercase;
     font-size: 1.3em;
     color: #fff;
@@ -28,7 +31,7 @@ h2.volontiraj {
 
 a.nav-link {
     
-    padding-top: 1.3em;
+    padding-top: 1.5em;
     text-transform: uppercase;
     color: black;
     font-weight: 400;  
