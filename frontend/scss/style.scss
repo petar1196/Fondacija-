@@ -1,4 +1,5 @@
-@import "custom";
+@import "abstracts/custom";
+@import "abstracts/mixins";
 @import "bootstrap";
 @import "components/navbar";    
 @import "components/header";

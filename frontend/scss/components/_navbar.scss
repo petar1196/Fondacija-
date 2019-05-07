@@ -1,60 +1,139 @@
 .navigation-wrapper {
-    border-bottom: solid 5px $my-red;
-    overflow: hidden;
-    vertical-align: middle;
-    background-color: #fff;
-    
-     
+  border-bottom: solid 5px $my-red;
+  overflow: hidden;
+  vertical-align: middle;
+  background-color: #fff;
 }
 
 h2.fondacija {
-    text-transform: uppercase;
-    
-    font-size: 1.4em;
-    font-weight: 640;
-    margin-top: 0.5em;
-}
+    margin-left: 0.3em;
+    font-weight: 600;
+    position: relative;
 
-.right {
-    background-color: $my-red;
-    text-align: center;
-    
+  @include sm {
+    font-size: 1.1rem;
+   
+    right: 0.5em;
+  }
+
+  @include lg {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    margin-right: 0.7em
+  }
+
+  @include rwd(767px) { 
+    font-size: 1.4rem;
+    margin-top: 0.3em;
+  }
 }
 
 h2.volontiraj {
-    padding-top: 16%;
+ 
+  @include xs {
+    color: #fff;
+    text-align: center;
+    margin-top: 0.3em;
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.5rem;
+  }
+
+  @include sm {
+    padding-top: 2.8em;
+    padding-right: 0.7em;
+    font-size: 0.7rem;
+  }
+
+  @include md {
+    font-size: 1rem;
+  }
+
+  @include lg {
+    text-transform: uppercase;
+    font-size: 1.1rem;
     color: #fff;
     font-weight: 700;
+  }
+
+  @include rwd(601px) {
+    position: relative;
+    bottom: 0.7em; 
+  }
+
+  @include rwd(767px) {
+   position: relative;
+   bottom: 1.1em;
+   font-weight: bold;
+
+  }
 }
+
+img.logo {
+ 
+    position: relative;
+    right: 1em;
+  
+
+  @include sm {
+    height: 4.5em;
+    position: relative;
+    right: 3em;
+    top: 0.5em;
+  }
+
+  @include rwd(601px) {
+    position: relative;
+    bottom: 0.2em;
+  }
+
+
+
+  @include md {
+    height: 5em;
+    position: relative;
+    right: 2.7em;
+    top: 0.4em;
+  }
+
+  @include lg {
+    height: 5.5em;
+    position: relative;
+    top: 0.3em;
+  }
+}
+
+
+
+
 
 a.nav-link {
-    
+
+  text-transform: uppercase;
+
+
+  @include sm {
+    font-size: 0.9rem;
+  }
+
+  @include lg {
     padding-top: 1.5em;
-    text-transform: uppercase;
     color: black;
-    font-weight: 400;  
-    font-size: 1.1em;
-    margin-right: 1.6rem;
-    
-    
-}
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-right: 0.85rem;
+   
+  }
 
-@media (max-width: 576px) {
-    h2.volontiraj {
-        padding-top: 2%;
-    }
-}
+  @include rwd(1109px) {
+    font-size: 1rem;
+    margin-right: 1.6rem; 
+  }
 
-@media(max-width: 572px ) {
-    h2.fondacija {
-        padding-left: 1rem;
-        
-    }
-    img.logo {
-        padding-right: 1rem;
-    }
 }
 
 
+
+.right {
+ background-color: $my-red;
+}
