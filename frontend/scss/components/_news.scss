@@ -1,3 +1,4 @@
+
 h2.latest{
     font-family: $font-poppins;
     text-align: center;
@@ -8,17 +9,76 @@ h2.latest{
 
 }
 
-i.far.fa-heart.fa-1x {
-    padding-left: 1.8em;
-    color: $my-red;
+.card {
+  
+    @include sm {
+        width: 10rem;
+    }
+
+    @include md {
+        width: 14rem;
+    }
+
+    @include lg {
+        width: 18rem;
+    }
 }
 
+i.far.fa-eye.fa-1x {
+    @include sm {
+           position: relative;
+           right: 1rem;
+    }
+
+    @include lg { 
+       position: relative;
+       left: 1rem;
+    }
+}
+    
+    
+
 span.3 {
-    padding-left: 0.6rem;
+    @include sm {
+        padding-left: 0;
+    }
+
+    @include lg { 
+        position: relative;
+        right: 1em;
+    }
+
+
+    
 }
 
 span.writte {
     padding-left: 1.5rem;
+    @include sm {
+        font-size: 0.7rem;
+        padding-left: 0rem;
+    }
+
+    @include lg { 
+        font-size:  1rem;
+        margin-left: 0.5em;
+        padding-left: 0;
+    }
+}
+
+
+i.far.fa-heart.fa-1x {
+    padding-left: 1.8em;
+    color: $my-red;
+    @include sm {
+        position: relative;
+        right: 0.1rem;
+    }
+
+    @include lg { 
+       margin-left: 1em;
+    }
+
 }
 
 button.more {
@@ -29,9 +89,7 @@ button.more {
     height: 2.8em;
     margin-top: 5rem;
     margin-left: 4rem;
-    
-
-   
+      
 }
 
 span.read {
@@ -39,10 +97,11 @@ span.read {
     font-family: $font-poppins;
 }
 
-
     button.more {
         margin-left: 4rem;
     }
+
+
 
 
 .container-fluid.green {
@@ -67,16 +126,8 @@ h5.isidora {
 }
 
 
-@media (max-width: 576px) {
-    .card {
-        margin-left: 24%;
-    }
-    
-    button.more {
-        margin-left: 11rem;
-    }
-
-    h5.isidora {
-        margin-left: 5.5em;
+span.organska {
+    @include sm {
+        padding-bottom: 5em;
     }
 }
