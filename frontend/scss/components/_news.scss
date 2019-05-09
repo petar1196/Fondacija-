@@ -1,16 +1,10 @@
 
-h2.latest{
-    font-family: $font-poppins;
-    text-align: center;
-    font-size: 4.5rem;
-    font-weight: bolder;
-    padding-top: 6rem;
-    padding-bottom: 3rem; 
 
-}
+.card1{
 
-.card {
-  
+    @media(max-width: 576px) {
+        margin-left: 6.5rem;
+    }
     @include sm {
         width: 10rem;
     }
@@ -24,6 +18,23 @@ h2.latest{
     }
 }
 
+h2.latest {
+    font-family: $font-poppins;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  
+    font-weight: bolder;
+  
+    @include sm {
+      font-size: 3rem;
+      margin-right: 2rem;
+    }
+  
+    @include lg {
+      font-size: 4.5rem;
+    }
+  }
 i.far.fa-eye.fa-1x {
     @include sm {
            position: relative;
@@ -81,25 +92,41 @@ i.far.fa-heart.fa-1x {
 
 }
 
-button.more {
-    background-color: $my-red;
-    border: solid $my-red 1px;
-    border-radius: 1px;
-    width: 10em;
-    height: 2.8em;
-    margin-top: 5rem;
-    margin-left: 4rem;
-      
-}
 
 span.read {
     color: #fff;
     font-family: $font-poppins;
 }
 
-    button.more {
-        margin-left: 4rem;
+
+
+button.more {
+  
+    background-color: $my-red;
+    border: solid $my-red 1px;
+    border-radius: 1px;
+    width: 10em;
+    height: 2.8em;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    @include xs { 
+        margin-left: 5rem;
     }
+
+    @include sm {
+        position: relative;
+        right: 3rem;
+    }
+
+    @include md { 
+        margin-right: 2rem;
+        
+    }
+
+    @include lg {
+        margin-left: 6.8rem;
+    }
+}
 
 
 
@@ -118,11 +145,16 @@ h2.veliki {
 }
 
 h5.isidora {
+    
     color: #fff;
     font-weight: 400;
     font-size: 1.3rem;
     padding-top: 0.5rem;
     font-family: $font-nunito;
+    @media(max-width: 573px) {  
+        margin-left: 6rem;
+
+    }
 }
 
 

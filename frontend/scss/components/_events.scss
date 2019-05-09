@@ -21,7 +21,6 @@
   padding-bottom: 0.4em;
   padding-left: -0.3em;
   padding-right: -0.3em;
-  
 }
 
 @mixin button-donate {
@@ -39,16 +38,27 @@
 
 @mixin mnt {
   position: relative;
-    top:-4.6rem;
-    left: 3.8rem;
-    font-size: 0.9rem;
+  top: -4.6rem;
+  left: 3.8rem;
+  font-size: 0.9rem;
 }
 
-@mixin sub-text {
-  position: absolute;
-  left: 10rem;
-  top: 6rem;
-  font-size: 2rem;
+h2.upcoming {
+  font-family: $font-poppins;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+
+  font-weight: bolder;
+
+  @include sm {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+
+  @include lg {
+    font-size: 4.5rem;
+  }
 }
 
 .card.card-event1 {
@@ -66,7 +76,7 @@
 .test {
   color: black;
   font-size: 2.8rem;
-  
+
   position: relative;
   top: 4.2rem;
   span:nth-child(1) {
@@ -74,35 +84,128 @@
     top: -1.3rem;
     font-size: 0.9rem;
   }
-  }
+}
 
-   .mnt {
-   @include mnt;
-  }
+.mnt {
+  @include mnt;
+}
 
-   .sub-text {
-   @include sub-text;
+.sub-text {
+  @include xs {
+    font-size: 1.2rem;
   }
-
+  @include sm {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  position: absolute;
+  left: 10rem;
+  top: 6rem;
+  font-size: 2rem;
+}
+@include lg {
+  font-size: 1.8rem;
+}
 
 .sanfrancisco {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 button.now1 {
- @include button-register;
- margin-left: 6.7em;
+  margin-left: 6.7em;
+  @include button-register;
+  @include xs {
+    position: relative;
+    top: 0.2rem;
+    left: 2rem;
+    font-size: 0.8rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: -0.6em;
+    padding-right: -0.6em;
+  }
+  @include sm {
+    position: relative;
+    bottom: 3.5rem;
+    left: 11rem;
+    font-size: 0.6rem;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: -0.7em;
+    padding-right: -0.7em;
+  }
+  @include md {
+    position: relative;
+    top: -0.2rem;
+    left: 13.8rem;
+    font-size: 0.6rem;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: -0.7em;
+    padding-right: -0.7em;
+  }
+
+  @include lg {
+    position: relative;
+    top: -0.2rem;
+    left: 7.7rem;
+    font-size: 0.9rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
 }
 
 button.now2 {
-  
+  margin-left: 6.7em;
   @include button-register;
-  margin-left: 9em;
-  
+  @include xs {
+    position: relative;
+    top: 0.8rem;
+    left: 8.5rem;
+    font-size: 0.8rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: -0.6em;
+    padding-right: -0.6em;
+  }
+  @include sm {
+    position: relative;
+    bottom: 3.5rem;
+    left: 11rem;
+    font-size: 0.6rem;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: -0.7em;
+    padding-right: -0.7em;
+  }
+  @include md {
+    position: relative;
+    top: -0.2rem;
+    left: 13.8rem;
+    font-size: 0.6rem;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    padding-left: -0.7em;
+    padding-right: -0.7em;
+  }
+
+  @include lg {
+    position: relative;
+    top: -0.2rem;
+    left: 41.7rem;
+    font-size: 0.9rem;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
 }
 
 button.now3 {
-  @include button-register;
-  margin-left: 6.6em;
+  @extend button.now1;
 }
 
 .cnt-join {
@@ -118,7 +221,6 @@ button.now3 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 30em;
-  
 }
 
 h1.join {
@@ -126,7 +228,6 @@ h1.join {
   font-size: 3.9rem;
   font-weight: bold;
   margin-top: 2.1em;
-  
 }
 
 h3.empower {
@@ -136,5 +237,5 @@ h3.empower {
 }
 
 button.donate {
- @include button-donate;
+  @include button-donate;
 }
