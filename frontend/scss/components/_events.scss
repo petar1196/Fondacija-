@@ -23,18 +23,6 @@
   padding-right: -0.3em;
 }
 
-@mixin button-donate {
-  background-color: $my-red;
-  border: 1px solid $my-red;
-  color: #fff;
-  font-size: 1.1rem;
-  padding-top: 0.4em;
-  padding-bottom: 0.4em;
-  padding-left: 1.3em;
-  padding-right: 1.3em;
-  margin-left: 2em;
-  margin-top: 1.5em;
-}
 
 @mixin mnt {
   position: relative;
@@ -127,8 +115,8 @@ button.now1 {
   }
   @include sm {
     position: relative;
-    bottom: 3.5rem;
-    left: 11rem;
+    margin-top: -5em;
+    left: 13rem;
     font-size: 0.6rem;
     padding-top: 0.9em;
     padding-bottom: 0.9em;
@@ -173,8 +161,8 @@ button.now2 {
   }
   @include sm {
     position: relative;
-    bottom: 3.5rem;
-    left: 11rem;
+    top: 3.8rem;
+    left: 19.9rem;
     font-size: 0.6rem;
     padding-top: 0.9em;
     padding-bottom: 0.9em;
@@ -184,7 +172,7 @@ button.now2 {
   @include md {
     position: relative;
     top: -0.2rem;
-    left: 13.8rem;
+    left: 25rem;
     font-size: 0.6rem;
     padding-top: 0.9em;
     padding-bottom: 0.9em;
@@ -210,6 +198,7 @@ button.now3 {
 
 .cnt-join {
   margin-top: 9em;
+ 
 }
 
 .background-left {
@@ -224,18 +213,84 @@ button.now3 {
 }
 
 h1.join {
+
+
   color: #fff;
-  font-size: 3.9rem;
+ 
   font-weight: bold;
-  margin-top: 2.1em;
+
+  text-align: center;
+  @include xs {
+    font-size: 3rem;
+    position: relative;
+    bottom: 2.4rem;
+  }
+  @include sm {
+    margin-top: 3em;
+  }
+  @include md {
+    font-size: 3rem;
+    margin-top: 3.5em;
+  }
+  
+
+  @include lg {
+    margin-top: 3.3em;
+    font-size: 3.9rem;
+  }
 }
 
 h3.empower {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 450;
+  text-align: center;
+  @include xs {
+    position: relative;
+    bottom: 2.4rem;
+  }
+
+  
 }
 
 button.donate {
-  @include button-donate;
+  background-color: $my-red;
+  border: 1px solid $my-red;
+  color: #fff;
+ 
+  @include xs {
+    margin-bottom: 3rem;
+    position: relative;
+    bottom: 2rem;
+    left: 9.5em;
+  }
+
+  @include sm {
+    margin-left: -9.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+  }
+
+  @include md { 
+    margin-left: -5em;
+    margin-top: 1em;
+    padding: 0.2em 1em 0.2em 1em;
+    margin-right: -2em;
+  }
+  
 }
+
+  @include lg {
+    font-size: 1.1rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+   position: relative;
+   left: 2em;
+   
+  }
+    
+
