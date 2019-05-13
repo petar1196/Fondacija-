@@ -1,61 +1,72 @@
 .container-fluid.bggreen {
-    background-color: $my-green;
-    margin-top: 6.2em;
-    text-align: center;
+  background-color: $my-green;
+  margin-top: 6.2em;
+  text-align: center;
 }
 
 h1.nama {
-    color: #fff;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
-    font-size: 4.1rem;
-    font-weight: bold;
-    font-family: $font-poppins;
+  color: #fff;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  font-size: 4.1rem;
+  font-weight: bold;
+  font-family: $font-poppins;
 }
 
 p.paragraph {
-    text-align: center;
-    margin-top: 4em;
-    font-size: 1.1rem;
-    font-weight: 300;
+  text-align: center;
+  margin-top: 4em;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 p.paragraph1 {
-    text-align: center;
-    margin-top: 1em;
-    font-size: 1.1rem;
-    font-weight: 300;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .container-fluid.glr {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 img.gallery1 {
-    height: 9em;
-    width: 14em;
-    position: relative;
-    right: 2em;
+  height: 9em;
+  width: 14em;
+  position: relative;
+  right: 2em;
 }
 
 img.gallery2 {
-    height: 9em;
-    width: 14em;
-    margin-left: 2em;
+  height: 9em;
+  width: 14em;
+  margin-left: 2em;
 }
 
 img.gallery3 {
-    height: 18em;
-    width: 29.8em;
-    margin-top: 2em;
-    position: relative;
-    right: 2em;
+  height: 18em;
+  width: 29.8em;
+  margin-top: 2em;
+  position: relative;
+  right: 2em;
 }
 
 img.gallery4 {
-  height:  12em;
-  width: 28em; 
+  height: 13em;
+  width: 19em;
+  margin-left: 6em;
 }
 
+img.gallery5 {
+  height: 13em;
+  width: 19em;
+  margin-left: 6em;
+  margin-top: 3em;
+}
 
-
+img.gallery6 {
+    height: 29em;
+    width: 44.37em;
+    margin-left: 10em;
+}
