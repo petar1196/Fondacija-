@@ -32,41 +32,234 @@ p.paragraph1 {
 }
 
 img.gallery1 {
-  height: 9em;
-  width: 14em;
-  position: relative;
-  right: 2em;
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+
+  @include rwd(414px) {
+      margin-left: 2em;
+  }
+
+  @include sm {
+    height: 6em;
+    width: 4em;
+  }
+
+  @include md {
+    height: 5em;
+    width: 6em;
+    position: relative;
+    right: 1em;
+  }
+
+  @include lg {
+    height: 8em;
+    width: 11em;
+    position: relative;
+    right: 2em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 13em;
+    height: 9em;
+}
+
 }
 
 img.gallery2 {
-  height: 9em;
-  width: 14em;
-  margin-left: 2em;
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 6em;
+    width: 4em;
+  }
+
+  @include md {
+    height: 5em;
+    width: 6em;
+    position: relative;
+    right: 0.5em;
+  }
+
+  @include lg {
+    height: 8em;
+    width: 11em;
+    margin-left: 2.5em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 13em;
+    height: 9em;
+}
 }
 
 img.gallery3 {
-  height: 18em;
-  width: 29.8em;
-  margin-top: 2em;
-  position: relative;
-  right: 2em;
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 10em;
+    width: 9em;
+    margin-top: 2em;
+  }
+  @include md {
+    width: 12.5em;
+    height: 14em;
+    margin-top: 2em;
+    position: relative;
+    right: 1em;
+  }
+
+  @include lg {
+    height: 18em;
+    width: 23em;
+    margin-top: 2em;
+    position: relative;
+    right: 2em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 27em;
+    height: 17em;
+}
 }
 
 img.gallery4 {
-  height: 13em;
-  width: 19em;
-  margin-left: 6em;
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 8em;
+    width: 8em;
+    margin-left: 1em;
+  }
+  @include md {
+    height: 9em;
+    width: 10em;
+  }
+  @include lg {
+    height: 12em;
+    width: 16em;
+    margin-left: 6em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 20em;
+    height: 12em;
+}
 }
 
 img.gallery5 {
-  height: 13em;
-  width: 19em;
-  margin-left: 6em;
-  margin-top: 3em;
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 8em;
+    width: 8em;
+    margin-top: 2em;
+    margin-left: 1em;
+  }
+  @include md {
+    height: 10em;
+    width: 10em;
+    margin-top: 2em;
+  }
+
+  @include lg {
+    height: 12em;
+    width: 16em;
+    margin-left: 6em;
+    margin-top: 4em;
+    margin-left: 6em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 20em;
+    height: 12em;
+    
+}
 }
 
 img.gallery6 {
-    height: 29em;
-    width: 44.37em;
-    margin-left: 10em;
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 18em;
+    width: 16em;
+    margin-left: 3.9em;
+  }
+
+  @include md {
+    height: 21em;
+    width: 24em;
+    margin-left: 3em;
+  }
+
+  @include lg {
+    height: 28em;
+    width: 23.2em;
+    margin-left: 12em;
+  }
+  
+  @include rwd(1200px) {
+    width: 42.4em; 
+}
 }
