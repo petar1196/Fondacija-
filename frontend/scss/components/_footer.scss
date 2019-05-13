@@ -1,0 +1,98 @@
+.cnt-contact {
+    padding-top: 5em;
+}
+
+h3.fondation {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+p.bulevar {
+    line-height: 1.5rem;
+    margin-top: 1em;
+}
+
+
+div.card.card-ftr.w-85 {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: -1em;
+    
+}
+
+h3.get {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+input#inputEmail4.form-control {
+    border: none;
+    
+    
+}
+
+hr.underline {
+    border: 0.5px black solid;
+    position: relative;
+    bottom: 0.8em;
+    
+}
+
+
+button.signup {
+    background-color: $my-red;
+    border: solid $my-red;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.2em 12.5em 0.2em 12.5em;
+    margin-left: 0.5em;
+
+    @include sm {
+        padding: 0.2em 2em 0.2em 2em;
+    }
+
+    @include md { 
+
+    }
+
+    @include lg {
+        padding: 0.2em 12.5em 0.2em 12.5em;
+    }
+   
+}
+
+
+ul.links {
+    list-style: none;
+    line-height: 2.5em;
+    font-weight: 400;
+    margin-right: 1em;
+    color: black;   
+}
+
+.container-fluid.ftr {
+    background-color: $my-green;
+    text-align: center;
+    margin-top: 2em;    
+    position: absolute;
+    
+}
+
+h6{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+}
+
+
+
+
+
