@@ -1,0 +1,36 @@
+div.container-fluid.gren {
+    background-color: $my-green;
+    margin-top: 6em;
+}
+
+h1.uci {
+    text-align: center;
+    color: #fff;
+    font-size: 4.1rem;
+    padding: 0.5em 0 0.5em 0;
+}
+
+h1.involved {
+    text-align: center;
+    margin-top: 1.5em;
+    
+    
+}
+
+p.click {
+   margin-top: 1em;
+   text-align: center;
+   margin-right: 3em;
+  
+}
+
+button.see {
+    background-color: $my-red;
+    border: 1px $my-red solid;
+    color: #fff;
+    padding: 0.4em 1.4em 0.4em 1.4em;
+    font-size: 1.1em;
+    margin-left: 2em;
+    margin-top: 0.5em;
+
+}
