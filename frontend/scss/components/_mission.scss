@@ -1,0 +1,70 @@
+.container-fluid.bgred {
+    background-color: $my-red;
+}
+
+h3.we {
+    text-align: center;
+    color: #fff;
+  
+    font-weight: 300;
+    font-family: $font-nunito;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: 2rem;
+    
+}
+h1.ourmission {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 4.5em;
+    font-size: 2.6em;
+}
+
+p.im {
+    text-align: justify;
+    margin-top: 2em;
+}
+
+img.mission1 {
+    width: 46.56em;
+    height: 32.625em;
+    @include md {
+        
+    }
+   
+    
+}
+
+img.mission2 {
+    width: 48.5em;
+    height: 32.625em;
+    position: relative;
+    right: 1em;
+    
+}
+
+.container-fluid.grn {
+    background-color: $my-green;
+    padding-top: 2em;
+}
+
+h2.weneed {
+    text-align: center;
+    color: #fff;
+}
+
+button.donate1 {
+    background-color: #fff;
+    border: #ffff solid 1px;
+    color: $my-green;
+    padding: 0.3em 4em 0.3em 4em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    font-size: 1.05rem;
+}
+
+button.donate1:hover {
+   background-color: #77893F;
+   color: #fff;
+   border:  #77893F;
+}
