@@ -146,6 +146,11 @@ button.now1 {
   }
 }
 
+button.now1:hover {
+  background-color: #A1483A;
+    border: 1px solid #A1483A;
+}
+
 button.now2 {
   margin-left: 6.7em;
   @include button-register;
@@ -192,9 +197,17 @@ button.now2 {
   }
 }
 
+
+button.now2:hover {
+  background-color: #A1483A;
+    border: 1px solid #A1483A;
+}
+
 button.now3 {
   @extend button.now1;
 }
+
+
 
 .cnt-join {
   margin-top: 9em;
@@ -284,13 +297,19 @@ button.donate {
 
   @include lg {
     font-size: 1.1rem;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
     padding-left: 1.5em;
     padding-right: 1.5em;
    position: relative;
    left: 2em;
    
+  }
+
+  button.donate:hover {
+    background-color: #A1483A;
+    border: 1px solid #A1483A;
+
   }
     
 

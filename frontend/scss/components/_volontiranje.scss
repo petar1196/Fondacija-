@@ -35,6 +35,10 @@ button.see {
 
 }
 
+button.see:hover {
+    background-color: #A1483A;
+}
+
 img.volontiranje {
     height: 32em;
     width: 105%;
@@ -60,3 +64,57 @@ p.here {
     text-align: center;
 }
     
+div.col-sm-4.lft {
+    background-color: $my-red;
+    text-align: center;
+    padding: 4.2em 0 3em 0;
+}
+
+i.far.fa-user {
+    color: #fff;
+}
+
+h2.person {
+    color: #fff;
+    margin-top: 0.2em;
+}
+
+p.terry {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+  
+div.col-sm-4.cntr {
+    background-color: $my-blue;
+    text-align: center;
+    padding: 4.3em 0 3em 0;
+}
+
+i.fas.fa-globe {
+    color: #fff;
+}
+
+button.click { 
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: $my-blue;
+    padding: 0.3em 1em 0.3em 1em;
+}
+
+button.click:hover {
+    background-color: #77893F;
+    border: 1px solid #77893F;
+    color: #fff;
+}
+
+div.col-sm-4.rght {
+    background-color: $my-green;
+    text-align: center;
+    padding-top: 4.4em;
+    
+}
+
+i.fas.fa-phone {
+    color: #fff;
+}
