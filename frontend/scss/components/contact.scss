@@ -36,12 +36,7 @@ p.evrope {
   margin-left: 7em;
   margin-top: 0.8em;
 
-  @include md {
-    margin-left: 2em;
-  }
-  @include lg {
-    margin-left: 7em;
-  }
+  
 }
 
 
