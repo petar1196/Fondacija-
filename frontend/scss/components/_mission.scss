@@ -26,17 +26,15 @@ p.im {
 }
 
 img.mission1 {
-    width: 46.56em;
+    width: 102%;
     height: 32.625em;
-    @include md {
-        
-    }
+   
    
     
 }
 
 img.mission2 {
-    width: 48.5em;
+    width: 106%;
     height: 32.625em;
     position: relative;
     right: 1em;

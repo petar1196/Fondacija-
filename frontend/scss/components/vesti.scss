@@ -15,7 +15,7 @@ h1.event {
     text-align: center;
     margin-top: 5em;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 2.5em;
 }
 
 h3.need {
@@ -27,5 +27,13 @@ button.donate2 {
     border: 1px solid #fff;
     color: #B3CE5E;
     padding: 0.4em 1.4em 0.4em 1.4em;
-    margin-top: 0.7em;
+    margin-top: 0.8em;
 }
+
+
+button.donate2:hover {
+    background-color: #77893F;
+    color: #fff;
+    border:  #77893F;
+    
+ }
