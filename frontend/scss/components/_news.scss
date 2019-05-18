@@ -1,0 +1,170 @@
+
+
+.card1{
+
+    @media(max-width: 576px) {
+        margin-left: 6.5rem;
+    }
+    @include sm {
+        width: 10rem;
+    }
+
+    @include md {
+        width: 14rem;
+    }
+
+    @include lg {
+        width: 18rem;
+    }
+}
+
+h2.latest {
+    font-family: $font-poppins;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  
+    font-weight: bolder;
+  
+    @include sm {
+      font-size: 3rem;
+      margin-right: 2rem;
+    }
+  
+    @include lg {
+      font-size: 4.5rem;
+    }
+  }
+i.far.fa-eye.fa-1x {
+    @include sm {
+           position: relative;
+           right: 1rem;
+    }
+
+    @include lg { 
+       position: relative;
+       left: 1rem;
+    }
+}
+    
+    
+
+span.3 {
+    @include sm {
+        padding-left: 0;
+    }
+
+    @include lg { 
+        position: relative;
+        right: 1em;
+    }
+
+
+    
+}
+
+span.writte {
+    padding-left: 1.5rem;
+    @include sm {
+        font-size: 0.7rem;
+        padding-left: 0rem;
+    }
+
+    @include lg { 
+        font-size:  1rem;
+        margin-left: 0.5em;
+        padding-left: 0;
+    }
+}
+
+
+i.far.fa-heart.fa-1x {
+    padding-left: 1.8em;
+    color: $my-red;
+    @include sm {
+        position: relative;
+        right: 0.1rem;
+    }
+
+    @include lg { 
+       margin-left: 1em;
+    }
+
+}
+
+
+span.read {
+    color: #fff;
+    font-family: $font-poppins;
+}
+
+
+
+button.more {
+  
+    background-color: $my-red;
+    border: solid $my-red 1px;
+    border-radius: 1px;
+    width: 10em;
+    height: 2.8em;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    @include xs { 
+        margin-left: 5rem;
+    }
+
+    @include sm {
+        position: relative;
+        right: 3rem;
+    }
+
+    @include md { 
+        margin-right: 2rem;
+        
+    }
+
+    @include lg {
+        margin-left: 6.8rem;
+    }
+}
+
+button.more:hover {
+    background-color: #A1483A;
+    border: 1px solid #A1483A;
+}
+
+
+
+
+.container-fluid.green {
+    background-color: $my-green;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+h2.veliki {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+h5.isidora {
+    
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    font-family: $font-nunito;
+    @media(max-width: 573px) {  
+        margin-left: 6rem;
+
+    }
+}
+
+
+span.organska {
+    @include sm {
+        padding-bottom: 5em;
+    }
+}

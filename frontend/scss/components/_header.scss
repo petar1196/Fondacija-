@@ -1,0 +1,130 @@
+
+.container-fluid.header-bg {
+    background-image: url("../images/header.png");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 720px;
+}
+
+h1.bolja { 
+    
+  
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $font-nunito;
+    font-weight: 800;
+    @include xs {
+        font-size: 1.7rem;
+        margin-top: 18em;
+       
+    }
+
+    @include sm {
+      margin-top: 7em;
+      font-size: 2.5rem;
+    }
+
+    @include md {
+        margin-top: 5.8em;
+       font-size: 2.8rem; 
+    }
+
+    @include lg {
+        font-size: 3.4rem;
+    }
+
+   
+    
+}
+
+h1.hrane {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $font-nunito;
+    font-weight: 800;
+    @include xs {
+        font-size: 1.7rem;
+    }
+    
+    @include sm {
+        
+        font-size: 2.5rem;
+      }
+
+      
+    @include md {
+        font-size: 2.8rem; 
+     }
+     
+    @include lg {
+        font-size: 3.4rem;
+    }
+   
+}
+
+h2.razvoj {
+    color: #fff;
+    text-transform: uppercase;
+    @include xs {
+        font-size: 1.4rem;
+    }
+    
+    @include md {
+        font-size: 2rem; 
+     }
+
+     
+    @include lg {
+        font-size: 2.1rem;
+    }
+  
+}
+
+
+
+
+.left-mission {
+    background-color: $my-red;
+    @include header-cards;
+    
+}
+
+.center-events {
+    background-color: $my-blue;
+    @include header-cards;
+}
+
+.right-involved {
+    background-color: $my-green;
+    @include header-cards;
+    @include md {
+        padding-top: 1.6rem;
+    }
+   
+}
+
+.mission {
+    @include cards-text-big;
+}
+
+.events {
+    @include cards-text-big;
+}
+
+.ivolved{
+    @include cards-text-big;
+}
+
+.our {
+    @include cards-text-small;
+}
+
+.register {
+    @include cards-text-small;
+}
+
+.volunteer {
+    @include cards-text-small;
+}

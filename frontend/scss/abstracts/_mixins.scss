@@ -1,0 +1,81 @@
+// Extra Small devices
+@mixin xs {
+    @media (min-width: #{$xsmall}) {
+      @content;
+    }
+  }
+  
+  // Small devices
+  @mixin sm {
+    @media (min-width: #{$small}) {
+      @content;
+    }
+  }
+  
+  // Medium devices
+  @mixin md {
+    @media (min-width: #{$medium}) {
+      @content;
+    }
+  }
+  
+  // Large devices
+  @mixin lg {
+    @media (min-width: #{$large}) {
+      @content;
+    }
+  }
+  
+  // Custom devices
+  @mixin rwd($screen) {
+    @media (min-width: $screen) {
+      @content;
+    }
+  }
+   
+
+  // Header mixins
+
+  @mixin header-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $font-nunito;
+    font-weight: 800;
+}
+
+
+@mixin header-cards {
+    text-align: center;
+    padding-top: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+@mixin cards-text-big {
+    color: #fff;
+    padding-top: 0.2rem;
+    font-size: 2.5rem;
+    
+}
+
+@mixin cards-text-small {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: -1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@mixin gallery-mobile {
+    
+    height: 16em;
+    width: 18em;
+    margin-top: 2em;
+}
+
+@mixin gallery-mobile1 {       
+  height: 18em;
+  width: 20em;
+  margin: 2em 0 0 1em;
+}

@@ -1,3 +1,13 @@
-@import "custom";
+@import "abstracts/custom";
+@import "abstracts/mixins";
 @import "bootstrap";
-@import "components/navbar"
+@import "components/navbar";    
+@import "components/header";
+@import "components/news";
+@import "components/events";
+@import "components/footer";
+@import "components/about";
+@import "components/mission";
+@import "components/volontiranje";
+@import "components/vesti";
+@import "components/contact";
