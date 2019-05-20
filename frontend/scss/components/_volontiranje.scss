@@ -1,6 +1,12 @@
 div.container-fluid.gren {
     background-color: $my-green;
     margin-top: 6em;
+    @include xs {
+        margin-top: 15em;
+    }
+    @include sm {
+        margin-top: 6em; 
+    }
 }
 
 h1.uci {
