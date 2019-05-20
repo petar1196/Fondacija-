@@ -9,6 +9,8 @@ div.container-fluid.gren {
   }
 }
 
+
+
 h1.uci {
   text-align: center;
   color: #fff;
@@ -126,3 +128,272 @@ div.col-sm-4.rght {
 i.fas.fa-phone {
   color: #fff;
 }
+
+// about me //
+
+.container-fluid.bggreen {
+  background-color: $my-green;
+  margin-top: 6.2em;
+  text-align: center;
+}
+
+h1.nama {
+  color: #fff;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  font-size: 4.1rem;
+  font-weight: bold;
+  font-family: $font-poppins;
+}
+
+p.paragraph {
+  text-align: center;
+  margin-top: 4em;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+p.paragraph1 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.container-fluid.glr {
+  margin-top: 3em;
+}
+
+img.gallery1 {
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+
+  @include rwd(414px) {
+      margin-left: 2em;
+  }
+
+  @include sm {
+    height: 6em;
+    width: 4em;
+  }
+
+  @include md {
+    height: 5em;
+    width: 6em;
+    position: relative;
+    right: 1em;
+  }
+
+  @include lg {
+    height: 8em;
+    width: 11em;
+    position: relative;
+    right: 2em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 13em;
+    height: 9em;
+}
+
+}
+
+img.gallery2 {
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 6em;
+    width: 4em;
+  }
+
+  @include md {
+    height: 5em;
+    width: 6em;
+    position: relative;
+    right: 0.5em;
+  }
+
+  @include lg {
+    height: 8em;
+    width: 11em;
+    margin-left: 2.5em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 13em;
+    height: 9em;
+}
+}
+
+img.gallery3 {
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 10em;
+    width: 9em;
+    margin-top: 2em;
+  }
+  @include md {
+    width: 12.5em;
+    height: 14em;
+    margin-top: 2em;
+    position: relative;
+    right: 1em;
+  }
+
+  @include lg {
+    height: 18em;
+    width: 23em;
+    margin-top: 2em;
+    position: relative;
+    right: 2em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 27em;
+    height: 17em;
+}
+}
+
+img.gallery4 {
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 8em;
+    width: 8em;
+    margin-left: 1em;
+  }
+  @include md {
+    height: 9em;
+    width: 10em;
+  }
+  @include lg {
+    height: 12em;
+    width: 16em;
+    margin-left: 6em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 20em;
+    height: 12em;
+}
+}
+
+img.gallery5 {
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 8em;
+    width: 8em;
+    margin-top: 2em;
+    margin-left: 1em;
+  }
+  @include md {
+    height: 10em;
+    width: 10em;
+    margin-top: 2em;
+  }
+
+  @include lg {
+    height: 12em;
+    width: 16em;
+    margin-left: 6em;
+    margin-top: 4em;
+    margin-left: 6em;
+  }
+
+  
+  @include rwd(1200px) {
+    width: 20em;
+    height: 12em;
+    
+}
+}
+
+img.gallery6 {
+  @include xs {
+    @include gallery-mobile;
+  }
+
+  @include rwd(375px) {
+    @include gallery-mobile1;
+  }
+  
+  @include rwd(414px) {
+    margin-left: 2em;
+}
+
+  @include sm {
+    height: 18em;
+    width: 16em;
+    margin-left: 3.9em;
+  }
+
+  @include md {
+    height: 21em;
+    width: 24em;
+    margin-left: 3em;
+  }
+
+  @include lg {
+    height: 28em;
+    width: 23.2em;
+    margin-left: 12em;
+  }
+  
+  @include rwd(1200px) {
+    width: 42.4em; 
+}
+}
+
