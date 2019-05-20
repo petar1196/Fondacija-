@@ -2,11 +2,13 @@
 
 .card1{
 
-    @media(max-width: 576px) {
-        margin-left: 6.5rem;
+    @include xs {
+        margin-left: 6em;
+        width: 22rem;
     }
     @include sm {
         width: 10rem;
+        margin-left: 1em;
     }
 
     @include md {
@@ -25,7 +27,9 @@ h2.latest {
     padding-bottom: 3rem;
   
     font-weight: bolder;
-  
+    @include xs {
+      font-size: 3rem;  
+    }
     @include sm {
       font-size: 3rem;
       margin-right: 2rem;
@@ -110,12 +114,12 @@ button.more {
     margin-top: 5rem;
     margin-left: 8rem;
     @include xs { 
-        margin-left: 5rem;
+        margin-left: 10rem;
     }
 
     @include sm {
         position: relative;
-        right: 3rem;
+        right: 10rem;
     }
 
     @include md { 
@@ -157,7 +161,7 @@ h5.isidora {
     padding-top: 0.5rem;
     font-family: $font-nunito;
     @media(max-width: 573px) {  
-        margin-left: 6rem;
+        margin-left: 8rem;
 
     }
 }

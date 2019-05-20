@@ -16,8 +16,8 @@ h1.bolja {
     font-family: $font-nunito;
     font-weight: 800;
     @include xs {
-        font-size: 1.7rem;
-        margin-top: 18em;
+        font-size: 1.9rem;
+        margin-top: 14em;
        
     }
 
@@ -45,7 +45,7 @@ h1.hrane {
     font-family: $font-nunito;
     font-weight: 800;
     @include xs {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
     
     @include sm {
@@ -68,7 +68,7 @@ h2.razvoj {
     color: #fff;
     text-transform: uppercase;
     @include xs {
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
     
     @include md {

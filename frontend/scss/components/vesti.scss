@@ -1,10 +1,50 @@
+// Extra Small devices
+@mixin xs {
+    @media (min-width: #{$xsmall}) {
+      @content;
+    }
+  }
+  
+  // Small devices
+  @mixin sm {
+    @media (min-width: #{$small}) {
+      @content;
+    }
+  }
+
+  
+  // Medium devices
+  @mixin md {
+    @media (min-width: #{$medium}) {
+      @content;
+    }
+  }
+
+  
+$xsmall: 320px;
+$small: 576px;
+$medium: 766px;
+$large: 992px;
+
 .container-fluid.evnt {
 background-color: #B3CE5E;
 margin-top: 6em;
 text-align: center;
 padding-top: 2em;
 padding-bottom: 2em;
+
+
+@include xs {
+    margin-top: 15em;
 }
+@include sm {
+    margin-top: 4.8em;
+}
+@include md {
+    margin-top: 6em;
+}
+}
+
 
 h1.event {
     color: #fff;

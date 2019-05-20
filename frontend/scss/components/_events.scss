@@ -210,6 +210,7 @@ button.now3 {
 
 
 .cnt-join {
+ 
   margin-top: 9em;
  
 }
@@ -237,6 +238,7 @@ h1.join {
     font-size: 3rem;
     position: relative;
     bottom: 2.4rem;
+    padding-top: 2em;
   }
   @include sm {
     margin-top: 3em;
@@ -248,7 +250,7 @@ h1.join {
   
 
   @include lg {
-    margin-top: 3.3em;
+    margin-top: 0.9em;
     font-size: 3.9rem;
   }
 }
@@ -274,16 +276,14 @@ button.donate {
   @include xs {
     margin-bottom: 3rem;
     position: relative;
-    bottom: 2rem;
-    left: 9.5em;
+    bottom: 1.7rem;
+    left: 11.5em;
+    padding: 0.3em 0.5em 0.3em 0.5em;
   }
 
   @include sm {
     margin-left: -9.5em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
+    padding: 0.2em 0.4em 0.2em 0.4em;
   }
 
   @include md { 
