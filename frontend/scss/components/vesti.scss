@@ -1,39 +1,79 @@
+// Extra Small devices
+@mixin xs {
+  @media (min-width: #{$xsmall}) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$small}) {
+    @content;
+  }
+}
+
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$medium}) {
+    @content;
+  }
+}
+
+
+$xsmall: 320px;
+$small: 576px;
+$medium: 766px;
+$large: 992px;
+
 .container-fluid.evnt {
 background-color: #B3CE5E;
 margin-top: 6em;
 text-align: center;
 padding-top: 2em;
 padding-bottom: 2em;
+
+
+@include xs {
+  margin-top: 15em;
+}
+@include sm {
+  margin-top: 4.8em;
+}
+@include md {
+  margin-top: 6em;
+}
 }
 
+
 h1.event {
-    color: #fff;
-    font-size: 4.5rem;
+  color: #fff;
+  font-size: 4.5rem;
 }
 .container-fluid.cntrg {
-    background-color: #B3CE5E;
-    text-align: center;
-    margin-top: 5em;
-    padding-top: 2em;
-    padding-bottom: 2.5em;
+  background-color: #B3CE5E;
+  text-align: center;
+  margin-top: 5em;
+  padding-top: 2em;
+  padding-bottom: 2.5em;
 }
 
 h3.need {
-    color: #fff;
+  color: #fff;
 }
 
 button.donate2 {
-    background-color: #fff;
-    border: 1px solid #fff;
-    color: #B3CE5E;
-    padding: 0.4em 1.4em 0.4em 1.4em;
-    margin-top: 0.8em;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #B3CE5E;
+  padding: 0.4em 1.4em 0.4em 1.4em;
+  margin-top: 0.8em;
 }
 
 
 button.donate2:hover {
-    background-color: #77893F;
-    color: #fff;
-    border:  #77893F;
-    
- }
+  background-color: #77893F;
+  color: #fff;
+  border:  #77893F;
+  
+}

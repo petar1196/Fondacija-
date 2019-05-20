@@ -1,9 +1,52 @@
+<<<<<<< HEAD
+=======
+
+$xsmall: 320px;
+$small: 576px;
+$medium: 766px;
+$large: 992px;
+
+
+// Extra Small devices
+@mixin xs {
+  @media (min-width: #{$xsmall}) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$small}) {
+    @content;
+  }
+}
+
+// Medium devices
+>>>>>>> Devel
 @mixin md {
   @media (min-width: #{$medium}) {
     @content;
   }
 }
+<<<<<<< HEAD
 $medium: 766px;
+=======
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$large}) {
+    @content;
+  }
+}
+
+// Custom devices
+@mixin rwd($screen) {
+  @media (min-width: $screen) {
+    @content;
+  }
+}
+ 
+>>>>>>> Devel
 
 img.contact {
   width: 100%;
@@ -37,17 +80,29 @@ p.evrope {
   padding-bottom: 1em;
 }
 
-.form-control {
+.form-control1 {
+  @extend .form-control;
   border: none;
   border-bottom: 1px solid black;
-  margin-left: 7em;
+  
   margin-top: 0.8em;
 
+<<<<<<< HEAD
   
 @include md {
   margin-left: 2em;
+=======
+  @include md {
+    margin-left: 2em;
+  }
+  @include lg {
+    margin-left: 7em;
+  }
+
+>>>>>>> Devel
 }
 }
+
 
 
 
