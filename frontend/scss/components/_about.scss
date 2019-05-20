@@ -1,265 +1,128 @@
-.container-fluid.bggreen {
+div.container-fluid.gren {
   background-color: $my-green;
-  margin-top: 6.2em;
-  text-align: center;
+  margin-top: 6em;
+  @include xs {
+      margin-top: 15em;
+  }
+  @include sm {
+      margin-top: 6em;     
+  }
 }
 
-h1.nama {
+h1.uci {
+  text-align: center;
   color: #fff;
-  padding-top: 0.6em;
-  padding-bottom: 0.6em;
   font-size: 4.1rem;
-  font-weight: bold;
-  font-family: $font-poppins;
+  padding: 0.5em 0 0.5em 0;
 }
 
-p.paragraph {
+h1.involved {
   text-align: center;
-  margin-top: 4em;
-  font-size: 1.1rem;
-  font-weight: 300;
+  margin-top: 1.5em;
+  
+  
 }
 
-p.paragraph1 {
+p.click {
+ margin-top: 1em;
+ text-align: center;
+ margin-right: 3em;
+
+}
+
+button.see {
+  background-color: $my-red;
+  border: 1px $my-red solid;
+  color: #fff;
+  padding: 0.4em 1.4em 0.4em 1.4em;
+  font-size: 1.1em;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  
+
+}
+
+button.see:hover {
+  background-color: #A1483A;
+}
+
+img.volontiranje {
+  height: 32em;
+  width: 105%;
+  overflow: hidden;
+  position: absolute;
+  right: 0.01em;
+  
+  margin-top: 2em;
+  
+}
+
+.container.dnt {
+  margin-top: 33em;
+  margin-bottom: 2em;
+}
+
+h1.make {
   text-align: center;
-  margin-top: 1em;
-  font-size: 1.1rem;
-  font-weight: 300;
+  margin-top: 2em;
 }
 
-.container-fluid.glr {
-  margin-top: 3em;
+p.here {
+  text-align: center;
 }
-
-img.gallery1 {
-  @include xs {
-    @include gallery-mobile;
-  }
-
-  @include rwd(375px) {
-    @include gallery-mobile1;
-  }
-
-  @include rwd(414px) {
-      margin-left: 2em;
-  }
-
-  @include sm {
-    height: 6em;
-    width: 4em;
-  }
-
-  @include md {
-    height: 5em;
-    width: 6em;
-    position: relative;
-    right: 1em;
-  }
-
-  @include lg {
-    height: 8em;
-    width: 11em;
-    position: relative;
-    right: 2em;
-  }
-
   
-  @include rwd(1200px) {
-    width: 13em;
-    height: 9em;
+div.col-sm-4.lft {
+  background-color: $my-red;
+  text-align: center;
+  padding: 4.2em 0 3em 0;
 }
 
+i.far.fa-user {
+  color: #fff;
 }
 
-img.gallery2 {
-  @include xs {
-    @include gallery-mobile;
-  }
+h2.person {
+  color: #fff;
+  margin-top: 0.2em;
+}
 
-  @include rwd(375px) {
-    @include gallery-mobile1;
-  }
+p.terry {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+
+div.col-sm-4.cntr {
+  background-color: $my-blue;
+  text-align: center;
+  padding: 4.3em 0 3em 0;
+}
+
+i.fas.fa-globe {
+  color: #fff;
+}
+
+button.click { 
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: $my-blue;
+  padding: 0.3em 1em 0.3em 1em;
+}
+
+button.click:hover {
+  background-color: #77893F;
+  border: 1px solid #77893F;
+  color: #fff;
+}
+
+div.col-sm-4.rght {
+  background-color: $my-green;
+  text-align: center;
+  padding-top: 4.4em;
   
-  @include rwd(414px) {
-    margin-left: 2em;
 }
 
-  @include sm {
-    height: 6em;
-    width: 4em;
-  }
-
-  @include md {
-    height: 5em;
-    width: 6em;
-    position: relative;
-    right: 0.5em;
-  }
-
-  @include lg {
-    height: 8em;
-    width: 11em;
-    margin-left: 2.5em;
-  }
-
-  
-  @include rwd(1200px) {
-    width: 13em;
-    height: 9em;
-}
-}
-
-img.gallery3 {
-  @include xs {
-    @include gallery-mobile;
-  }
-
-  @include rwd(375px) {
-    @include gallery-mobile1;
-  }
-
-  
-  @include rwd(414px) {
-    margin-left: 2em;
-}
-
-  @include sm {
-    height: 10em;
-    width: 9em;
-    margin-top: 2em;
-  }
-  @include md {
-    width: 12.5em;
-    height: 14em;
-    margin-top: 2em;
-    position: relative;
-    right: 1em;
-  }
-
-  @include lg {
-    height: 18em;
-    width: 23em;
-    margin-top: 2em;
-    position: relative;
-    right: 2em;
-  }
-
-  
-  @include rwd(1200px) {
-    width: 27em;
-    height: 17em;
-}
-}
-
-img.gallery4 {
-  @include xs {
-    @include gallery-mobile;
-  }
-
-  @include rwd(375px) {
-    @include gallery-mobile1;
-  }
-
-  
-  @include rwd(414px) {
-    margin-left: 2em;
-}
-
-  @include sm {
-    height: 8em;
-    width: 8em;
-    margin-left: 1em;
-  }
-  @include md {
-    height: 9em;
-    width: 10em;
-  }
-  @include lg {
-    height: 12em;
-    width: 16em;
-    margin-left: 6em;
-  }
-
-  
-  @include rwd(1200px) {
-    width: 20em;
-    height: 12em;
-}
-}
-
-img.gallery5 {
-  @include xs {
-    @include gallery-mobile;
-  }
-
-  @include rwd(375px) {
-    @include gallery-mobile1;
-  }
-  
-  @include rwd(414px) {
-    margin-left: 2em;
-}
-
-  @include sm {
-    height: 8em;
-    width: 8em;
-    margin-top: 2em;
-    margin-left: 1em;
-  }
-  @include md {
-    height: 10em;
-    width: 10em;
-    margin-top: 2em;
-  }
-
-  @include lg {
-    height: 12em;
-    width: 16em;
-    margin-left: 6em;
-    margin-top: 4em;
-    margin-left: 6em;
-  }
-
-  
-  @include rwd(1200px) {
-    width: 20em;
-    height: 12em;
-    
-}
-}
-
-img.gallery6 {
-  @include xs {
-    @include gallery-mobile;
-  }
-
-  @include rwd(375px) {
-    @include gallery-mobile1;
-  }
-  
-  @include rwd(414px) {
-    margin-left: 2em;
-}
-
-  @include sm {
-    height: 18em;
-    width: 16em;
-    margin-left: 3.9em;
-  }
-
-  @include md {
-    height: 21em;
-    width: 24em;
-    margin-left: 3em;
-  }
-
-  @include lg {
-    height: 28em;
-    width: 23.2em;
-    margin-left: 12em;
-  }
-  
-  @include rwd(1200px) {
-    width: 42.4em; 
-}
+i.fas.fa-phone {
+  color: #fff;
 }
