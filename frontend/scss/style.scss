@@ -1,6 +1,9 @@
 @import "abstracts/custom";
 @import "abstracts/mixins";
+
 @import "bootstrap";
+@import "vendors/animate";
+
 @import "components/navbar";    
 @import "components/header";
 @import "components/news";  
